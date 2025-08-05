@@ -1,0 +1,33 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model and encoder files
+xgb_fraud_model.pkl
+type_label_encoder.pkl
+model_features.pkl
+
+# Ignore data files
+Fraud.csv
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Spyder project files
+.spyproject/
+
+# Ignore logs
+*.log
