@@ -6,6 +6,8 @@ A comprehensive project demonstrating the end-to-end process of building a **rea
 ## Dataset Overview
 
 - **Number of rows:** 6,362,620 transactions
+- **Source:** [Kaggle - Fraud Detection Dataset](https://www.kaggle.com/datasets/ealaxi/paysim1)  
+  *(The `Fraud.csv` file used in this project is sourced from the above Kaggle dataset.)*
 
 ### Feature Descriptions
 
