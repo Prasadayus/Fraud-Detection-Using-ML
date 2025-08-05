@@ -1,7 +1,6 @@
 # Fraud Detection Using Machine Learning
 
-A comprehensive project demonstrating the end-to-end process of building a **real-time fraud detection system** using Python, advanced analytics, and machine learning. This project is designed to showcase my ability to solve complex business problems with data, structured thinking, and actionable insights—skills directly aligned with the Business Analyst 1 role at Meesho.
-
+A comprehensive project demonstrating the end-to-end process of building a **real-time fraud detection system** using Python, advanced analytics, and machine learning. This project is designed to showcase my ability to solve complex business problems with data
 ---
 
 ## Dataset Overview
@@ -91,6 +90,13 @@ This project addresses the challenge of detecting fraudulent financial transacti
 - Random Forest: ROC AUC 0.9982, Precision 0.0214, Recall 0.7089, F1 0.0416
 - Gradient Boosting: ROC AUC 0.9984, Precision 0.1435, Recall 0.9961, F1 0.2509
 - XGBoost: ROC AUC 0.9427, Precision 0.3521, Recall 0.7100, F1 0.4708 (chosen for best business tradeoff)
+
+**Why XGBoost Was Chosen as the Final Model**  
+- **Superior Precision-Recall Balance:** XGBoost achieved the highest precision (0.3521) while maintaining strong recall (0.7100), resulting in the best F1-score (0.4708). This balance is crucial for fraud detection, as it minimizes false positives while still catching most fraudulent transactions.
+- **Faster Training and Prediction:** XGBoost demonstrated significantly faster training and prediction times compared to Gradient Boosting, making it more suitable for real-time fraud detection systems where quick response is essential.
+- **Business Impact:** The higher precision of XGBoost means fewer legitimate transactions are incorrectly flagged as fraud, reducing customer friction and operational costs.
+- **Scalability:** XGBoost's computational efficiency makes it ideal for processing large-scale transaction data in production environments.
+- **Interpretability:** XGBoost provides clear feature importance rankings, supporting business transparency and actionable insights.
 
 **Q5: Key Fraud Prediction Factors**  
 - `balance_change_orig`: Account draining
